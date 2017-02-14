@@ -1,13 +1,3 @@
-<html>
-   <head>
-      <title>Online PHP Script Execution</title>      
-   </head>
-   
-   <body>
-      
-      <?php
-         echo $_GET['username'];
-      ?>
-   
-   </body>
-</html>
+<?php
+
+print_r($_GET["hub_challenge"]);
