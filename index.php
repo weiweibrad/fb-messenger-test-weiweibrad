@@ -1,3 +1,4 @@
 <?php
 
-print_r($_GET["hub_challenge"]);
+// print_r($_GET["hub_challenge"]);
+echo "php://input"
