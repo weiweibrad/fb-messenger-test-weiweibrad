@@ -6,7 +6,7 @@
    <body>
       
       <?php
-         echo $_GET;
+         echo $_GET['username'];
       ?>
    
    </body>
